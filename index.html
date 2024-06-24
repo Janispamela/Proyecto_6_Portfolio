@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio-Website</title>
+    <!-- css linkage -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/skin/color1.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- sending mail  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("trpx0vP1_psysbxxf");
+        })();
+    </script>
+</head>
+
+<body>
+
+    <!-- main container  -->
+    <div class="main-container">
+
+        <ul class="notifications"></ul>
+
+        <!-- aside container  -->
+        <div class="aside">
+
+            <div class="logo">
+                <div class="imgbx">
+                    <img src="Images/img8.jpg" alt="">
+                </div>
+                <a href="#"><span> MERN Stack </span><br> Developer</a>
+            </div>
+
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+
+            <nav class="navigation">
+                <ul class="nav">
+                    <li><a href="#home" class="active" id="navhome"><i class="fa fa-home" data-aos="zoom-in"
+                                data-aos-duration="1000"></i>
+                            Home</a></li>
+                    <li><a href="#about" id="navabout"><i class="fa fa-user" data-aos="zoom-in"
+                                data-aos-duration="1000"></i> About</a>
+                    </li>
+
+                    <li><a href="#portfolio" id="navportfolio"><i class="fa fa-briefcase" data-aos="zoom-in"
+                                data-aos-duration="1000"></i>
+                            Portfolio</a></li>
+                    <li><a href="#contact" id="navcontact"><i class="fa fa-comments" data-aos="zoom-in"
+                                data-aos-duration="1000"></i>
+                            Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- main-container  -->
+        <div class="main-content">
+
+            <!-- home section  -->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Janis Pamela</span> </h3>
+                            <h3 class="my-profession">I'm, a <span class="typing">MERN Web Developer</span></h3>
+                            <p>I will build pixel-perfect, engaging, and accessible digital experiences.</p>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="Images/bg2.png" alt="" data-aos="fade-left" data-aos-duration="800">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- about section  -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15" data-aos="fade-right" data-aos-duration="800">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Janis Pamela Cardenas Martinez and <span>Full Stack Web Developer</span></h3>
+                                    <p>Back in 2023, I decided to enroll in a bootcamp of Fullstack Web Development at Ucamp.
+
+                                        <br> <br> I graduated in International Business , I have within internal companies acquiring a strong background experience in supply chain management
+
+                                        <br> <br> Looking forward to develop my skills in IT.
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="personal-info padd-15">
+
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1"
+                                                title="Click to go contact section" class="btn hire-me">Skills</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Jira</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>SAP</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Java Script</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Postman</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Bootstrap</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>React JS</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Express JS</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Node JS</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>MongoDB</h5>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="skill-item padd-15" data-aos="fade-up" data-aos-delay="50"
+                                            data-aos-duration="800">
+                                            <div class="skill-inner">
+
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                                <h5>Agile</h5>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date" data-aos="zoom-in-right"
+                                                        data-aos-duration="1000">
+                                                        <i class="fa fa-calendar"></i>2023 — Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Senior SAP analyst
+                                                        At Accenture</h4>
+                                                    <p class="timeline-text">Analyze and troubleshoot incidents for over 160 SAP and non-SAP applications globally, supporting critical supply chain systems, ensuring SLA adherence in ServiceNow.
+                                                        Collaborate with technical teams for service request resolution and incident management (P1 and P2).
+                                                        Testing:
+                                                        
+                                                        Analyze user stories, create test scripts, and execute manual and automated testing for cloud migration.
+                                                        Ensure alignment with business requirements, log bugs in Jira, and coordinate with the team for prompt resolution, using qTest for testing results.</p>
+
+                                                </div>
+
+                                                <!-- timeline item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date" data-aos="zoom-in-right"
+                                                        data-aos-duration="1000">
+                                                        <i class="fa fa-calendar"></i>2022 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Key Client AR Controller</h4>
+                                                    <p class="timeline-text">- Utilize Power BI, EDI #310 and SAP Business Intelligence to managed key global accounts with the most revenue within the Americas ( Portafolio of $120 M USD ) from the finance perspective.
+
+                                                        - Facilitate finance online onboarding for new clients and conducted face to face key client meetings in Mexico and the USA to foster and sustain relationships, as well as gain insight into new requirements, charges not in contracts and credit worthiness.
+                                                        
+                                                        -Main Accounts: Technology, FMCG, retail and automotive verticals.</p>
+                                                </div>
+
+                                                <!-- timeline item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date" data-aos="zoom-in-right"
+                                                        data-aos-duration="1000">
+                                                        <i class="fa fa-calendar"></i>2019 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title"> Collections Specialist </h4>
+                                                    <p class="timeline-text">- Leveraged Salesforce and SAP FI to oversee cash accounts, successfully resolved debt for customers, and efficiently managed credit customers in Mexico, Colombia, Centroamerica and Caribe by agile projects.
+
+                                                                                                             
+                                                        -Engage with HQ finance, commercial, and customer service stakeholders to ensure high risk customers of the region with unpaid invoices, abandoned cargo, or credit renewal are prioritized for an urgent follow-up and secured payments.
+                                                    </p>
+
+                                                </div>
+
+                                                <!-- timeline item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date" data-aos="zoom-in-right"
+                                                        data-aos-duration="1000">
+                                                        <i class="fa fa-calendar"></i>2016 - 2017
+                                                    </h3>
+                                                    <h4 class="timeline-title">Customer Service Export</h4>
+                                                    <p class="timeline-text">Collaborate with IT delivery managers to implement e-invoicing (XML) within SAP SD to ensure compliance with Mexican customs and monitoring the transactions.
+
+                                                        - Utilized SAP to generate purchase order on MM (Materials Management) and sales orders on SD (Sales and Distribution).
+                                                    </p>
+
+                                                </div>
+
+                                                <!-- timeline item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date" data-aos="zoom-in-right"
+                                                        data-aos-duration="1000">
+                                                        <i class="fa fa-calendar"></i>Dec 2016 - May 2017
+                                                    </h3>
+                                                    <h4 class="timeline-title"> Traffic Management Coordinator </h4>
+                                                    <p class="timeline-text">Developed and executed replenishment plans of medical supplies to maintain adequate inventory levels by collaborating with suppliers and logistics providers. (Supervised 3 indirect reports).
+                                                    </p>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- portfolio section  -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15" data-aos="fade-right" data-aos-duration="800">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects:</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- porfolio item  -->
+                        <div class="portfolio-item padd-15 work-item" data-aos="zoom-in" data-aos-duration="800">
+                            <div class="portfolio-item-inner shadow-dark work-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="Images/Portfolio/img1.png" alt="">
+
+                                    <div class="overlay">
+                                        <div>
+                                            <a href="https://proyecto-1-landing-de-negocio-janis.netlify.app/"
+                                                title="Click to visit" target="_blank" class="btn btn-visit">Visit</a>
+                                            <a href="https://github.com/Janispamela/Proyecto-1-Landing-de-Negocio-Janis?classId=f75c05b6-f2d7-48e9-92b6-a30565621b3a&assignmentId=2311906d-b647-435b-890d-2472fe57fc26&submissionId=468fb824-ff37-0db5-b86d-9a673ec24235"
+                                                title="View Details" target="_blank"
+                                                class="btn btn-visit btn-detailss">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end  -->
+
+                        <!-- porfolio item  -->
+                        <div class="portfolio-item padd-15 work-item" data-aos="zoom-in" data-aos-duration="800">
+                            <div class="portfolio-item-inner shadow-dark work-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="Images/Portfolio/img2.png" alt="">
+
+                                    <div class="overlay">
+                                        <div>
+                                            <a href="https://janispamela.github.io/Proyecto-2-CRUD/"
+                                                title="Click to visit" target="_blank" class="btn btn-visit">Visit</a>
+                                            <a href="https://github.com/Janispamela/Proyecto-2-CRUD?classId=f75c05b6-f2d7-48e9-92b6-a30565621b3a&assignmentId=43615261-5aaa-43f3-b8bc-e7688b2d8472&submissionId=3d79c8f3-dc5d-8a51-2bdb-f1f6d2fc149b"
+                                                title="View Details" target="_blank"
+                                                class="btn btn-visit btn-detailss">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end  -->
+
+                        <!-- porfolio item  -->
+                        <div class="portfolio-item padd-15 work-item" data-aos="zoom-in" data-aos-duration="800">
+                            <div class="portfolio-item-inner shadow-dark work-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="Images/Portfolio/img3.png" alt="">
+
+                                    <div class="overlay">
+                                        <div>
+                                            <a href="https://janispamela.github.io/Proyecto-3-Dashboard/"
+                                                title="Click to visit" target="_blank" class="btn btn-visit">Visit</a>
+                                            <a href="https://github.com/Janispamela/Proyecto-3-Dashboard?classId=f75c05b6-f2d7-48e9-92b6-a30565621b3a&assignmentId=a3858521-6a54-4e28-b850-87ae64635a00&submissionId=599bc31a-2fff-f004-eadd-add4e9dfb9d8"
+                                                title="View Details" target="_blank"
+                                                class="btn btn-visit btn-detailss">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end  -->
+
+                        <!-- porfolio item  -->
+                        <div class="portfolio-item padd-15 work-item" data-aos="zoom-in" data-aos-duration="800">
+                            <div class="portfolio-item-inner shadow-dark work-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="Images/Portfolio/img4.png" alt="">
+
+                                    <div class="overlay">
+                                        <div>
+                                            <a href="https://ecommerce-acme-frontend.netlify.app/"
+                                                title="Click to visit" target="_blank" class="btn btn-visit">Visit</a>
+                                            <a href="https://github.com/Janispamela/ecommerce-acme-frontend"
+                                                title="View Details" target="_blank"
+                                                class="btn btn-visit btn-detailss">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end  -->
+
+                        <!-- porfolio item  -->
+                        <div class="portfolio-item padd-15 work-item" data-aos="zoom-in" data-aos-duration="800">
+                            <div class="portfolio-item-inner shadow-dark work-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="Images/Portfolio/img5.png" alt="">
+
+                                    <div class="overlay">
+                                        <div>
+                                            <a href="https://stalwart-pothos-c143e7.netlify.app/" title="Click to visit"
+                                                target="_blank" class="btn btn-visit">Visit</a>
+                                            <a href="https://github.com/Janispamela/Proyect--4-App-restaurante"
+                                                title="View Details" target="_blank"
+                                                class="btn btn-visit btn-detailss">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end  -->
+
+
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            <!-- contact section  -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15" data-aos="fade-right" data-aos-duration="800">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">You Can Contact With Me </h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+
+                        <!-- contact item start  -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1200"><i
+                                    class="fa fa-map-marker-alt"></i></div>
+                            <h4>Address</h4>
+                            <p>Mexico</p>
+                        </div>
+                        <!-- contact item end  -->
+
+                        <!-- contact item start  -->
+                        <div class="contact-info-item padd-15">
+                            <a href="mailto:janispcm@gmail.com?subject=hello" title="Click to send mail">
+                                <div class="icon" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1200"><i
+                                        class="fa fa-envelope"></i></div>
+                                <h4>Email</h4>
+                                <p>janispcm@gmail.com</p>
+                            </a>
+                        </div>
+                        <!-- contact item end  -->
+
+                        <!-- contact item start  -->
+                        <div class="contact-info-item padd-15">
+                            <a href="https://www.linkedin.com/in/pamela-c%C3%A1rdenas-mart%C3%ADnez-4a8b48a6/"
+                                title="Click to go" target="_blank">
+                                <div class="icon" data-aos="zoom-in" data-aos-duration="1200"><i
+                                        class="fab fa-linkedin"></i></div>
+                                <h4>Linkedin</h4>
+                            </a>
+                        </div>
+                        <!-- contact item end  -->
+
+                        <!-- contact item start  -->
+                        <div class="contact-info-item padd-15">
+                            <a href="https://github.com/Janispamela" title="Click to go" target="_blank">
+                                <div class="icon" data-aos="zoom-in" data-aos-duration="1200"><i
+                                        class="fab fa-github"></i></div>
+                                <h4>Github</h4>
+                            </a>
+                        </div>
+                        <!-- contact item end  -->
+                    </div>
+
+                </div>
+            </section>
+
+            <a href="#" class="back-to-top  active">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="style-switcher">
+        <div class="day-night s-icon">
+            <i class="fas " id="themesvg"></i>
+        </div>
+    </div>
+
+
+
+
+    <!-- AOS animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            easing: 'ease-in-out',
+        });
+
+    </script>
+
+    <!-- typed jsquery cdn  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="Javascript/jquery.min.js"></script>
+
+    <!-- javascript linkage  -->
+    <script src="Javascript/script.js"></script>
+
+</body>
+
+</html>
