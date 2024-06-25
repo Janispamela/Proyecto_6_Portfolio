@@ -735,6 +735,7 @@ h3.my-profession {
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    height: 100%; 
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -802,6 +803,14 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img .overlay:hover h4 {
     transform: translateX(0);
+    text-align: center;
+}
+
+/* Additional styles for portfoliodescription */
+.portfoliodescription {
+    color: #fdf9ff;
+    font-size: 14px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -1468,4 +1477,7 @@ h3.my-profession {
         margin: 5px;
         text-align: center;
     }
+
+
+    
 }
